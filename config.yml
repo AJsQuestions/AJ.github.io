@@ -1,5 +1,5 @@
 baseURL: "" 
-title: Aryamaan Jena
+title: AJ
 paginate: 20
 theme: PaperMod
 
@@ -32,7 +32,7 @@ params:
     googleAnalyticsID: ""
     DateFormat: "January 2006"
     defaultTheme: dark
-    hideFooter: false
+    hideFooter: true
     disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
@@ -55,7 +55,7 @@ params:
           subtitle: "I am a Research Associate (predoctoral) at Harvard Business School in the Finance and Entrpreneurship units.
                     I have a Bachelor's in Data Science, and a Master's in Financial Mathematics. I like to apply data scinece to machine learning
                     solutions for problems in quantitative finance. I currently work on portfolio optimization, data science, and econometrics."
-          imageUrl: "/picture.jpeg"
+          imageUrl: "/AJpicture.jpeg"
           imageWidth: 160
           imageHeight: 160
           imageTitle: AJ
@@ -77,8 +77,8 @@ params:
           url: /cv.pdf
         - name: Email
           url: mailto:ajena@hbs.edu
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/aj-jena-13b738172/
         - name: YouTube
           url: https://www.youtube.com/@pmichaillat
         - name: GitHub
@@ -92,7 +92,7 @@ params:
         hiddenInSingle: true
     label:
       text: "AJ"
-      icon: /favicon.ico
+      icon: "/favicon-16x16"
       iconHeight: 18
 
 markup:
