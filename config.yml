@@ -1,4 +1,4 @@
-baseURL: "" 
+baseURL: "https://ajsquestions.github.io/" 
 title: AJ
 paginate: 20
 theme: PaperMod
