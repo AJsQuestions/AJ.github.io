@@ -1,5 +1,5 @@
 ---
-title: "AJ"
+title: "About"
 aliases: /about/
 description: "AJ's biography, education, and experience"
 ---
