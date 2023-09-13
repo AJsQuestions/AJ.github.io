@@ -1,4 +1,4 @@
-baseURL: "" 
+baseURL: "/" 
 title: AJ
 paginate: 20
 theme: PaperMod
