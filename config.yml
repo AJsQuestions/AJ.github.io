@@ -11,7 +11,7 @@ taxonomies:
 
 menu:
     main:
-        - name: AJ
+        - name: About
           url: /about/
           weight: 1
         - name: Research
