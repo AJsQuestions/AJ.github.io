@@ -8,6 +8,4 @@ AJ is a quantitative researcher, data scientist, and machine learning practition
 
 Interested in applying methods from statistical machine learning to several industries, including but not limited to FinTech and Quantitative Finance. Aspiring Researcher with an aptitude to use data science skills in mathematical modeling, logical problem solving, and entrepreneurship.
 
-Research Interests: Statistical Learning Theory, Quantitative Finance, Econometrics, FinTech, DeFi, Reinforcement Learning, and Adaptive Learning Systems
-
 ## CV
