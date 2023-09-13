@@ -2,161 +2,161 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on AJ</title>
-    <link>/tags/</link>
+    <link>https://ajsquestions.github.io/tags/</link>
     <description>Recent content in Tags on AJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ajsquestions.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Science</title>
-      <link>/tags/data-science/</link>
+      <link>https://ajsquestions.github.io/tags/data-science/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/data-science/</guid>
+      <guid>https://ajsquestions.github.io/tags/data-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Innovation Econometrics</title>
-      <link>/tags/innovation-econometrics/</link>
+      <link>https://ajsquestions.github.io/tags/innovation-econometrics/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/innovation-econometrics/</guid>
+      <guid>https://ajsquestions.github.io/tags/innovation-econometrics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Liquidity Risk Premium</title>
-      <link>/tags/liquidity-risk-premium/</link>
+      <link>https://ajsquestions.github.io/tags/liquidity-risk-premium/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/liquidity-risk-premium/</guid>
+      <guid>https://ajsquestions.github.io/tags/liquidity-risk-premium/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Portfolio Optimization</title>
-      <link>/tags/portfolio-optimization/</link>
+      <link>https://ajsquestions.github.io/tags/portfolio-optimization/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/tags/portfolio-optimization/</guid>
+      <guid>https://ajsquestions.github.io/tags/portfolio-optimization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>C&#43;&#43;</title>
-      <link>/tags/c&#43;&#43;/</link>
+      <link>https://ajsquestions.github.io/tags/c&#43;&#43;/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/c&#43;&#43;/</guid>
+      <guid>https://ajsquestions.github.io/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EViews</title>
-      <link>/tags/eviews/</link>
+      <link>https://ajsquestions.github.io/tags/eviews/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/eviews/</guid>
+      <guid>https://ajsquestions.github.io/tags/eviews/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>/tags/machine-learning/</link>
+      <link>https://ajsquestions.github.io/tags/machine-learning/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/machine-learning/</guid>
+      <guid>https://ajsquestions.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Options Pricing</title>
-      <link>/tags/options-pricing/</link>
+      <link>https://ajsquestions.github.io/tags/options-pricing/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/options-pricing/</guid>
+      <guid>https://ajsquestions.github.io/tags/options-pricing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>/tags/python/</link>
+      <link>https://ajsquestions.github.io/tags/python/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/python/</guid>
+      <guid>https://ajsquestions.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quant Finance</title>
-      <link>/tags/quant-finance/</link>
+      <link>https://ajsquestions.github.io/tags/quant-finance/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>/tags/quant-finance/</guid>
+      <guid>https://ajsquestions.github.io/tags/quant-finance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>https://ajsquestions.github.io/tags/r/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r/</guid>
+      <guid>https://ajsquestions.github.io/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SQL</title>
-      <link>/tags/sql/</link>
+      <link>https://ajsquestions.github.io/tags/sql/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sql/</guid>
+      <guid>https://ajsquestions.github.io/tags/sql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Information Assymetery</title>
-      <link>/tags/information-assymetery/</link>
+      <link>https://ajsquestions.github.io/tags/information-assymetery/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/information-assymetery/</guid>
+      <guid>https://ajsquestions.github.io/tags/information-assymetery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>P2P Credit Lending</title>
-      <link>/tags/p2p-credit-lending/</link>
+      <link>https://ajsquestions.github.io/tags/p2p-credit-lending/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/p2p-credit-lending/</guid>
+      <guid>https://ajsquestions.github.io/tags/p2p-credit-lending/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zillow</title>
-      <link>/tags/zillow/</link>
+      <link>https://ajsquestions.github.io/tags/zillow/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/zillow/</guid>
+      <guid>https://ajsquestions.github.io/tags/zillow/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI Methods for Microgrid Management</title>
-      <link>/tags/ai-methods-for-microgrid-management/</link>
+      <link>https://ajsquestions.github.io/tags/ai-methods-for-microgrid-management/</link>
       <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ai-methods-for-microgrid-management/</guid>
+      <guid>https://ajsquestions.github.io/tags/ai-methods-for-microgrid-management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Time Series Modeling</title>
-      <link>/tags/time-series-modeling/</link>
+      <link>https://ajsquestions.github.io/tags/time-series-modeling/</link>
       <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/time-series-modeling/</guid>
+      <guid>https://ajsquestions.github.io/tags/time-series-modeling/</guid>
       <description></description>
     </item>
     
