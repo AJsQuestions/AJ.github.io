@@ -6,7 +6,9 @@ description: "AJ's Research Interests and Experience"
 ## Research Interests
 + Statistical Learning Theory
 + Reinforcement Learning and Adaptive Learning Systems
-+ Quantitative Finance
++ Data Science
++ Quantitative and Computational Finance
++ Mathematical Finance
 + Financial Econometrics
 + FinTech and DeFi
 
