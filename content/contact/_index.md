@@ -1,5 +1,5 @@
 ---
 title: "Connect"
-aliases: /blog/
+aliases: /contact/
 description: "AJ's biography, education, and experience"
 ---
