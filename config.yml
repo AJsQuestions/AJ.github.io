@@ -23,6 +23,9 @@ menu:
         - name: Connect
           url: /contact/
           weight: 4
+        - name: Tags
+          url: /tags/
+          weight: 5 
 
 params:
     description: "I am a Research Associate (predoctoral) at Harvard Business School in the Finance and Entrpreneurship units.
@@ -72,6 +75,9 @@ params:
               - name: Connect
                 url: /contact/
                 weight: 4
+              - name: Tags
+                url: /tags/
+                weight: 5 
     socialIcons:
         - name: CV
           url: /cv.pdf
@@ -79,14 +85,12 @@ params:
           url: mailto:ajena@hbs.edu
         - name: LinkedIn
           url: https://www.linkedin.com/in/aj-jena-13b738172/
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
         - name: GitHub
-          url: https://github.com/pmichaillat?tab=repositories
+          url: https://github.com/ajsquestions
 
     assets:
-        disableHLJS: true
-        disableScrollBarStyle: true
+        disableHLJS: false
+        disableScrollBarStyle: false
     cover:
         hiddenInList: true
         hiddenInSingle: true

@@ -1,5 +1,6 @@
 ---
 title: "Research"
+aliases: /research/
 description: "AJ's Research Interests and Experience"
 ---
 
