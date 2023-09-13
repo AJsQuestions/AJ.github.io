@@ -1,5 +1,5 @@
 ---
-title: "Thoughts"
+title: "Questions"
 aliases: /blog/
 description: "AJ's Blog"
 ---

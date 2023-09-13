@@ -63,21 +63,21 @@ params:
           imageHeight: 160
           imageTitle: AJ
           buttons:
-              - name: AJ
-                url: /about/
-                weight: 1
-              - name: Research
-                url: /research/
-                weight: 2
-              - name: Thoughts
-                url: /blog/
-                weight: 3
-              - name: Connect
-                url: /contact/
-                weight: 4
-              - name: Tags
-                url: /tags/
-                weight: 5 
+            - name: About
+              url: /about/
+              weight: 1
+            - name: Research
+              url: /research/
+              weight: 2
+            - name: Questions
+              url: /blog/
+              weight: 3
+            - name: Connect
+              url: /contact/
+              weight: 4
+            - name: Tags
+              url: /tags/
+              weight: 5 
     socialIcons:
         - name: CV
           url: /cv.pdf
