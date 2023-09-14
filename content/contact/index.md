@@ -2,8 +2,19 @@
 title: "Connect"
 aliases: /contact/
 description: "Reach AJ"
+author: " "
+
+socialIcons:
+        - name: CV
+          url: /cv.pdf
+        - name: Email
+          url: mailto:ajena@hbs.edu
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/aj-jena-13b738172/
+        - name: GitHub
+          url: https://github.com/ajsquestions
 ---
-## Get In Touch!
+## Say Hi!
 
 The best way to contact me is by email:  
 ajena [at] hbs [dot] edu
