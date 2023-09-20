@@ -3,7 +3,10 @@ title: "Test Scores"
 aliases: /test_scores/
 description: "Test Scores"
 author: " "
+tags: ["Linear Algebra", "Calculus"]
+summary: "GRE General Test, GRE Mathematics Subject Test" 
 ---
+
 ## GRE (General)
 + Verbal: 160/170 (86%)
 + Quantitative: 169/170 (94%)
