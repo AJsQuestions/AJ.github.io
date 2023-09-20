@@ -80,7 +80,7 @@ params:
               weight: 5 
     socialIcons:
         - name: CV
-          url: /cv.pdf
+          url: /AJ_CV_Sep23.pdf
         - name: Email
           url: mailto:ajena@hbs.edu
         - name: LinkedIn
