@@ -3,13 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ajsquestions.github.io/</loc>
-    <lastmod>2023-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ajsquestions.github.io/q1/</loc>
-    <lastmod>2023-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ajsquestions.github.io/questions/</loc>
-    <lastmod>2023-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ajsquestions.github.io/about/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ajsquestions.github.io/tags/agent-based-models/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ajsquestions.github.io/tags/algorithmic-game-theory/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ajsquestions.github.io/about/education/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ajsquestions.github.io/tags/machine-learning/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ajsquestions.github.io/a1/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ajsquestions.github.io/tags/python/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ajsquestions.github.io/tags/reinforcement-learning/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ajsquestions.github.io/tags/</loc>
+    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ajsquestions.github.io/tags/data-science/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
@@ -29,31 +56,16 @@
     <loc>https://ajsquestions.github.io/c1/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/</loc>
-    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ajsquestions.github.io/about/</loc>
-    <lastmod>2022-12-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ajsquestions.github.io/tags/c&#43;&#43;/</loc>
-    <lastmod>2022-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ajsquestions.github.io/about/education/</loc>
     <lastmod>2022-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ajsquestions.github.io/tags/eviews/</loc>
     <lastmod>2022-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/machine-learning/</loc>
-    <lastmod>2022-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ajsquestions.github.io/a1/</loc>
+    <loc>https://ajsquestions.github.io/a2/</loc>
     <lastmod>2022-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ajsquestions.github.io/tags/options-pricing/</loc>
-    <lastmod>2022-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ajsquestions.github.io/tags/python/</loc>
     <lastmod>2022-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ajsquestions.github.io/tags/quant-finance/</loc>
@@ -65,10 +77,10 @@
     <loc>https://ajsquestions.github.io/tags/numerical-methods/</loc>
     <lastmod>2022-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/tags/sql/</loc>
+    <loc>https://ajsquestions.github.io/about/work_experience/</loc>
     <lastmod>2022-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/about/work_experience/</loc>
+    <loc>https://ajsquestions.github.io/tags/sql/</loc>
     <lastmod>2022-06-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ajsquestions.github.io/tags/pca/</loc>
@@ -86,7 +98,7 @@
     <loc>https://ajsquestions.github.io/tags/nlp/</loc>
     <lastmod>2021-06-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ajsquestions.github.io/a2/</loc>
+    <loc>https://ajsquestions.github.io/a3/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ajsquestions.github.io/tags/r/</loc>
@@ -119,7 +131,11 @@
     <loc>https://ajsquestions.github.io/tags/time-series-modeling/</loc>
     <lastmod>2019-05-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ajsquestions.github.io/tags/calculus/</loc>
+  </url><url>
     <loc>https://ajsquestions.github.io/contact/</loc>
+  </url><url>
+    <loc>https://ajsquestions.github.io/tags/linear-algebra/</loc>
   </url><url>
     <loc>https://ajsquestions.github.io/tags/</loc>
   </url><url>

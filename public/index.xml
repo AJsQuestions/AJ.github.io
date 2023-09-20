@@ -6,13 +6,22 @@
     <description>Recent content on AJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ajsquestions.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ajsquestions.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>I dont Know Yet</title>
+      <title>IDK</title>
       <link>https://ajsquestions.github.io/q1/</link>
-      <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ajsquestions.github.io/q1/</guid>
+      <description>TBD</description>
+    </item>
+    
+    <item>
+      <title>Non-Degree Student</title>
+      <link>https://ajsquestions.github.io/a1/</link>
+      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ajsquestions.github.io/a1/</guid>
       <description>ABCDEFGHEHE</description>
     </item>
     
@@ -27,10 +36,10 @@
     
     <item>
       <title>Master of Science, Financial Mathematics</title>
-      <link>https://ajsquestions.github.io/a1/</link>
+      <link>https://ajsquestions.github.io/a2/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ajsquestions.github.io/a1/</guid>
+      <guid>https://ajsquestions.github.io/a2/</guid>
       <description>ABCDEFGHEHE</description>
     </item>
     
@@ -63,10 +72,10 @@
     
     <item>
       <title>Bachelor of Science, Data Science</title>
-      <link>https://ajsquestions.github.io/a2/</link>
+      <link>https://ajsquestions.github.io/a3/</link>
       <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ajsquestions.github.io/a2/</guid>
+      <guid>https://ajsquestions.github.io/a3/</guid>
       <description>ABCDEFGHEHE</description>
     </item>
     
