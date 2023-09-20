@@ -164,6 +164,7 @@
 
     <main class="main">
 
+{{- with site.Params.homeInfoParams }}
 <article class="post-single">
   <header class="post-header">
     
@@ -187,10 +188,13 @@ aryaman [dot] jena5000  [at] gmail [dot] com</p>
 
   </div>
 
-  <footer class="post-footer">
+<footer class="post-footer">
+{{ partial "social_icons.html" site.Params.socialIcons }}
+</footer>
+  <!-- <footer class="post-footer">
     <ul class="post-tags">
     </ul>
-  </footer>
+  </footer> -->
 </article>
     </main>
     
