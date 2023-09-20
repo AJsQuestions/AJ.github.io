@@ -3,4 +3,4 @@ title: "Questions"
 aliases: /blog/
 description: "AJ's Blog"
 ---
-## __I write my thoughts about the strangest of things here__
+## __I write my thoughts here__
