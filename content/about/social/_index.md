@@ -3,7 +3,7 @@ title: "Social and Interests"
 date: 2020-10-07
 aliases: /extra-curricular/
 description: "Social Work, Extra Curricular"
-author: " "
+author: "   "
 tags: ["Mental Health Awareness", "Football", "Entrepreneurship"]
 summary: "Mental Health Awareness", "Association Football", "Entrepreneurship"
 ---
@@ -22,4 +22,3 @@ summary: "Mental Health Awareness", "Association Football", "Entrepreneurship"
 + Run a quantitative Fantasy Premier League
 + Make annualized ~30% return on trading sports odds
 + Play myself at Harvard Fields and watch Liverpool play at the Pheonix Landing every week
-+ 
