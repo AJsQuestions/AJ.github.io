@@ -1,6 +1,6 @@
 ---
 title: "Questions"
-aliases: /blog/
+aliases: /blog
 description: "AJ's Blog"
 ---
 ## __Blog__
