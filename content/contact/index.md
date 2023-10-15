@@ -6,22 +6,14 @@ author: " "
 
 params:
   socialIcons:
-          - name: CV
-            url: /cv.pdf
-          - name: Email
-            url: mailto:ajena@hbs.edu
-          - name: LinkedIn
-            url: https://www.linkedin.com/in/aj-jena-13b738172/
-          - name: GitHub
-            url: https://github.com/ajsquestions
-
-# output: 
-#   flexdashboard::flex_dashboard:
-#     orientation: columns
-#     navbar:
-#         - { icon: "fa-question-circle", href: "mailto:ajena@hbs.edu", align: left}
-#         - { icon: "fa-github", href: "https://github.com/ajsquestions", align: left}
-#         - { icon: "fa-linkedin", href: "https://www.linkedin.com/in/aj-jena-13b738172/", align: left}
+    - name: "CV"
+      url: "/cv.pdf"
+    - name: "Email"
+      url: "mailto:ajena@hbs.edu"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/aj-jena-13b738172/"
+    - name: "GitHub"
+      url: "https://github.com/ajsquestions"
 ---
 ## Say Hi!
 
