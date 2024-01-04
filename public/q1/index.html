@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Test | AJ</title>
+<title>Trading Bot in a 100 lines of code | AJ</title>
 <meta name="keywords" content="Python, Alpaca, Machine Learning, Data Science, Quant Finance">
 <meta name="description" content="I build a trading bot using a simple strategy in a 100 lines of code">
 <meta name="author" content="AJ">
@@ -28,7 +28,7 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Test" />
+</noscript><meta property="og:title" content="Trading Bot in a 100 lines of code" />
 <meta property="og:description" content="I build a trading bot using a simple strategy in a 100 lines of code" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ajsquestions.github.io/q1/" />
@@ -38,7 +38,7 @@
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://ajsquestions.github.io/q1/AJpicture.jpeg" />
-<meta name="twitter:title" content="Test"/>
+<meta name="twitter:title" content="Trading Bot in a 100 lines of code"/>
 <meta name="twitter:description" content="I build a trading bot using a simple strategy in a 100 lines of code"/>
 
 
@@ -56,7 +56,7 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Test",
+      "name": "Trading Bot in a 100 lines of code",
       "item": "https://ajsquestions.github.io/q1/"
     }
   ]
@@ -66,14 +66,14 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Test",
-  "name": "Test",
+  "headline": "Trading Bot in a 100 lines of code",
+  "name": "Trading Bot in a 100 lines of code",
   "description": "I build a trading bot using a simple strategy in a 100 lines of code",
   "keywords": [
     "Python", "Alpaca", "Machine Learning", "Data Science", "Quant Finance"
   ],
-  "articleBody": "Building a Trade Bot from Scratch In a 100 lines of code The world of financial trading is complex; it requires thorough knowledge of a number of practical aspects of the trade cycle to successfully run a stratgy.\nIn this project, I tried to make trading as simple as running a cell in a jupyter notebook.\nOf course there was systematic thought involved in building the bot, but the idea wasn’t to develop a sophisticated strategy, rather, to develop A strategy FAST.\n1. The Data But first…\n1.1 Alpaca Alpaca is an API first broker that allows you to trade and maintain your portfolio using their python REST API. I used Alpaca as my broker and obtained API-keys for my paper trading acccount on Alpaca, as with any other SaaS.\n1.2 Universe I chose my universe of assets to be approximately 200 US ETFs chosen from a larger universe of 4000+ listed US ETFs. The criterion of selection was a threshold on the volume weighted average price having a mean of larger than a 100 in the past month. The volume weighted average price is a proxy measure for the liquidity of the asset. I preferred to deal with highly liquid ETFs.\n",
-  "wordCount" : "202",
+  "articleBody": "Building a Trade Bot from Scratch In a 100 lines of code The world of financial trading is complex; it requires thorough knowledge of a number of practical aspects of the trade cycle to successfully run a stratgy.\nIn this project, I tried to make trading as simple as running a cell in a jupyter notebook.\nOf course there was systematic thought involved in building the bot, but the idea wasn’t to develop a sophisticated strategy, rather, to develop A strategy FAST.\n1. The Data But first…\n1.1 Alpaca Alpaca is an API first broker that allows you to trade and maintain your portfolio using their python REST API. I used Alpaca as my broker and obtained API-keys for my paper trading acccount on Alpaca, as with any other SaaS.\n1.2 Universe I chose my universe of assets to be approximately 200 US ETFs chosen from a larger universe of 4000+ listed US ETFs. The criterion of selection was a threshold on the volume weighted average price having a mean of larger than a 100 in the past month. The volume weighted average price is a proxy measure for the liquidity of the asset. I preferred to deal with highly liquid ETFs.\nThe list of 4000+ tickers was pulled from the data vendor 12Data. They maintain an API endpoint for all 13000+ ETFs listed on all major exchanges in the world!\nThis is however, a matter of discretion, and not science, and one is free to choose the universe in any other way they desire, without changing the approach. It could be stocks, bonds, options, currency, crypto, or other alternatives.\n1.3 OLHCV Data With our\n",
+  "wordCount" : "275",
   "inLanguage": "en",
   "image":"https://ajsquestions.github.io/q1/AJpicture.jpeg","datePublished": "2024-01-04T00:00:00Z",
   "dateModified": "2024-01-04T00:00:00Z",
@@ -176,7 +176,7 @@
   <header class="post-header">
     
     <h1 class="post-title">
-      Test
+      Trading Bot in a 100 lines of code
     </h1>
 
     <div class="post-meta">&lt;span title=&#39;2024-01-04 00:00:00 &#43;0000 UTC&#39;&gt;January 2024&lt;/span&gt;&amp;nbsp;&amp;middot;&amp;nbsp;AJ
@@ -208,6 +208,10 @@
 <p>Alpaca is an API first broker that allows you to trade and maintain your portfolio using their python REST API. I used Alpaca as my broker and obtained API-keys for my paper trading acccount on Alpaca, as with any other SaaS.</p>
 <h4 id="12-universe">1.2 Universe<a hidden class="anchor" aria-hidden="true" href="#12-universe">#</a></h4>
 <p>I chose my universe of assets to be approximately 200 US ETFs chosen from a larger universe of 4000+ listed US ETFs. The criterion of selection was a threshold on the volume weighted average price having a mean of larger than a 100 in the past month. The volume weighted average price is a proxy measure for the liquidity of the asset. I preferred to deal with highly liquid ETFs.</p>
+<p>The list of 4000+ tickers was pulled from the data vendor 12Data. They maintain an API endpoint for all 13000+ ETFs listed on all major exchanges in the world!</p>
+<p>This is however, a matter of discretion, and not science, and one is free to choose the universe in any other way they desire, without changing the approach. It could be stocks, bonds, options, currency, crypto, or other alternatives.</p>
+<h4 id="13-olhcv-data">1.3 OLHCV Data<a hidden class="anchor" aria-hidden="true" href="#13-olhcv-data">#</a></h4>
+<p>With our</p>
 
 
   </div>
