@@ -6,7 +6,52 @@
     <description>Recent content in Tags on AJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 10 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ajsquestions.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://ajsquestions.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alpaca</title>
+      <link>https://ajsquestions.github.io/tags/alpaca/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://ajsquestions.github.io/tags/alpaca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>https://ajsquestions.github.io/tags/data-science/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://ajsquestions.github.io/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://ajsquestions.github.io/tags/machine-learning/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://ajsquestions.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://ajsquestions.github.io/tags/python/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://ajsquestions.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quant Finance</title>
+      <link>https://ajsquestions.github.io/tags/quant-finance/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://ajsquestions.github.io/tags/quant-finance/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Agent Based Models</title>
       <link>https://ajsquestions.github.io/tags/agent-based-models/</link>
@@ -26,38 +71,11 @@
     </item>
     
     <item>
-      <title>Machine Learning</title>
-      <link>https://ajsquestions.github.io/tags/machine-learning/</link>
-      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://ajsquestions.github.io/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://ajsquestions.github.io/tags/python/</link>
-      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://ajsquestions.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Reinforcement Learning</title>
       <link>https://ajsquestions.github.io/tags/reinforcement-learning/</link>
       <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://ajsquestions.github.io/tags/reinforcement-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Science</title>
-      <link>https://ajsquestions.github.io/tags/data-science/</link>
-      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://ajsquestions.github.io/tags/data-science/</guid>
       <description></description>
     </item>
     
@@ -112,15 +130,6 @@
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://ajsquestions.github.io/tags/options-pricing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quant Finance</title>
-      <link>https://ajsquestions.github.io/tags/quant-finance/</link>
-      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://ajsquestions.github.io/tags/quant-finance/</guid>
       <description></description>
     </item>
     
