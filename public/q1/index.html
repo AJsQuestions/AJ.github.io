@@ -72,8 +72,8 @@
   "keywords": [
     "Python", "Alpaca", "Machine Learning", "Data Science", "Quant Finance"
   ],
-  "articleBody": "Building a Trade Bot from Scratch In a 100 lines of code The world of financial trading is complex; it requires thorough knowledge of a number of practical aspects of the trade cycle to successfully run a stratgy.\nIn this project, I tried to make trading as simple as running a cell in a jupyter notebook.\nOf course there was systematic thought involved in building the bot, but the idea wasn’t to develop a sophisticated strategy, rather, to develop A strategy FAST.\n1. The Data But first…\n1.1 Alpaca Alpaca is an API first broker that allows you to trade and maintain your portfolio using their python REST API. I used Alpaca as my broker and obtained API-keys for my paper trading acccount on Alpaca, as with any other SaaS.\n1.2 Universe I chose my universe of assets to be approximately 200 US ETFs chosen from a larger universe of 4000+ listed US ETFs. The criterion of selection was a threshold on the volume weighted average price having a mean of larger than a 100 in the past month. The volume weighted average price is a proxy measure for the liquidity of the asset. I preferred to deal with highly liquid ETFs.\nThe list of 4000+ tickers was pulled from the data vendor 12Data. They maintain an API endpoint for all 13000+ ETFs listed on all major exchanges in the world!\nThis is however, a matter of discretion, and not science, and one is free to choose the universe in any other way they desire, without changing the approach. It could be stocks, bonds, options, currency, crypto, or other alternatives.\n1.3 OLHCV Data With our\n",
-  "wordCount" : "275",
+  "articleBody": "Building a Trade Bot from Scratch In a 100 lines of code The world of financial trading is complex; it requires thorough knowledge of a number of practical aspects of the trade cycle to successfully run a stratgy.\nIn this project, I tried to make trading as simple as running a cell in a jupyter notebook.\nOf course there was systematic thought involved in building the bot, but the idea wasn’t to develop a sophisticated strategy, rather, to develop A strategy FAST.\n1. The Data But first…\n1.1 Alpaca Alpaca is an API first broker that allows you to trade and maintain your portfolio using their python REST API. I used Alpaca as my broker and obtained API-keys for my paper trading acccount on Alpaca, as with any other SaaS.\n1.2 Universe I chose my universe of assets to be approximately 200 US ETFs chosen from a larger universe of 4000+ listed US ETFs. The criterion of selection was a threshold on the volume weighted average price having a mean of larger than a 100 in the past month. The volume weighted average price is a proxy measure for the liquidity of the asset. I preferred to deal with highly liquid ETFs.\nThe list of 4000+ tickers was pulled from the data vendor 12Data. They maintain an API endpoint for all 13000+ ETFs listed on all major exchanges in the world!\nThis is however, a matter of discretion, and not science, and one is free to choose the universe in any other way they desire, without changing the approach. It could be stocks, bonds, options, currency, crypto, or other alternatives.\n1.3 OLHCV Data With our universe determined, I now pull data for the last 8 years in the following manner:\nDeclare your Alpaca API Keys Set up data strcutures to store: symbols to buy symbols to sell last close prices of symbols to buy returns of symbols to buy Determine training period using the datetime module Pull OLHCV bar data from Alpaca API ",
+  "wordCount" : "333",
   "inLanguage": "en",
   "image":"https://ajsquestions.github.io/q1/AJpicture.jpeg","datePublished": "2024-01-04T00:00:00Z",
   "dateModified": "2024-01-04T00:00:00Z",
@@ -211,7 +211,21 @@
 <p>The list of 4000+ tickers was pulled from the data vendor 12Data. They maintain an API endpoint for all 13000+ ETFs listed on all major exchanges in the world!</p>
 <p>This is however, a matter of discretion, and not science, and one is free to choose the universe in any other way they desire, without changing the approach. It could be stocks, bonds, options, currency, crypto, or other alternatives.</p>
 <h4 id="13-olhcv-data">1.3 OLHCV Data<a hidden class="anchor" aria-hidden="true" href="#13-olhcv-data">#</a></h4>
-<p>With our</p>
+<p>With our universe determined, I now pull data for the last 8 years in the following manner:</p>
+<ol>
+<li>Declare your Alpaca API Keys</li>
+<li>Set up data strcutures to store:
+<ul>
+<li>symbols to buy</li>
+<li>symbols to sell</li>
+<li>last close prices of symbols to buy</li>
+<li>returns of symbols to buy</li>
+</ul>
+</li>
+<li>Determine training period using the datetime module</li>
+<li>Pull OLHCV bar data from Alpaca API</li>
+<li></li>
+</ol>
 
 
   </div>
