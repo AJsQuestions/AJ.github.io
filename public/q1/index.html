@@ -247,10 +247,10 @@ start = current_time.replace(year=current_time.year - years).strftime('%Y-%m-%d'
 We do this in a loop but the general format is:</li>
 </ol>
 <pre><code>bars = api.get_bars("SYMBOL", TimeFrame.Day, start, end)
-    if len(bars) == 0:
-        continue
-    else:
-        df = bars.df</code></pre>
+if len(bars) == 0:
+    continue
+else:
+    df = bars.df</code></pre>
 <h3 id="2-features-and-split">2. Features and Split<a hidden class="anchor" aria-hidden="true" href="#2-features-and-split">#</a></h3>
 <h4 id="21-adding-features">2.1 Adding Features<a hidden class="anchor" aria-hidden="true" href="#21-adding-features">#</a></h4>
 <p>With OLHCV data now pulled, we add all possible trechnical indicators from the library TA-lib using their python wrapper. Technical Indicators are derived from price data and serve as additional features to predict price movements.</p>
@@ -283,14 +283,14 @@ assert X_train.shape[0] == y_train.shape[0]</code></pre>
 <p>The Alpha model is the most important aspect of a trading strategy. It gives us incentive to actively manage a portfolio instead of just holding a portfolio of index funds for life ie, it gives us the excess return beyond what the market returns.</p>
 <p>Here, our alpha model simply tries to predict the hi_lo_signal, which in other words, is trying to predict which securities will rise in value in thr next day. I choose a decision tree classifier as my model after backtesting a whole host of linear, regularized, non-parametric, and ensemble methods. One is free to choose any model they prefer. I also avoid parameter tuning as this makes the program extensivley long with marginal gain in accuracy.</p>
 <pre><code>try:
-        clf = DecisionTreeClassifier(max_depth=10, random_state=42)
-        clf = clf.fit(X_train, y_train)
-        y_preds = clf.predict(X_test)
+    clf = DecisionTreeClassifier(max_depth=10, random_state=42)
+    clf = clf.fit(X_train, y_train)
+    y_preds = clf.predict(X_test)
 
-        if y_preds[-1] == 1:
-            symbols_to_buy.append(symbol)
-        else:
-            symbols_to_sell.append(symbol)
+    if y_preds[-1] == 1:
+        symbols_to_buy.append(symbol)
+    else:
+        symbols_to_sell.append(symbol)
     except:
         continue</code></pre>
 
