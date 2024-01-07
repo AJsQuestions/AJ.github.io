@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Trading Bot in a 100 lines of code | AJ</title>
+<title>ML Trading Bot in a 100 lines of code | AJ</title>
 <meta name="keywords" content="Python, Alpaca, Machine Learning, Data Science, Quant Finance">
-<meta name="description" content="I build a trading bot using a simple strategy in a 100 lines of code">
+<meta name="description" content="I build a trading bot using a simple ML strategy in a 100 lines of code">
 <meta name="author" content="AJ">
 <link rel="canonical" href="https://ajsquestions.github.io/q1/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.4c26068e314664f9b72d77e34bade7e3c41336c8b50cb7ff1a3960e528f68fe4.css" integrity="sha256-TCYGjjFGZPm3LXfjS63n48QTNsi1DLf/Gjlg5Sj2j&#43;Q=" rel="preload stylesheet" as="style">
@@ -28,18 +28,16 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Trading Bot in a 100 lines of code" />
-<meta property="og:description" content="I build a trading bot using a simple strategy in a 100 lines of code" />
+</noscript><meta property="og:title" content="ML Trading Bot in a 100 lines of code" />
+<meta property="og:description" content="I build a trading bot using a simple ML strategy in a 100 lines of code" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ajsquestions.github.io/q1/" />
-<meta property="og:image" content="https://ajsquestions.github.io/q1/AJpicture.jpeg" /><meta property="article:section" content="questions" />
+<meta property="og:url" content="https://ajsquestions.github.io/q1/" /><meta property="article:section" content="questions" />
 <meta property="article:published_time" content="2024-01-04T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-01-04T00:00:00+00:00" />
 
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://ajsquestions.github.io/q1/AJpicture.jpeg" />
-<meta name="twitter:title" content="Trading Bot in a 100 lines of code"/>
-<meta name="twitter:description" content="I build a trading bot using a simple strategy in a 100 lines of code"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ML Trading Bot in a 100 lines of code"/>
+<meta name="twitter:description" content="I build a trading bot using a simple ML strategy in a 100 lines of code"/>
 
 
 <script type="application/ld+json">
@@ -56,7 +54,7 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Trading Bot in a 100 lines of code",
+      "name": "ML Trading Bot in a 100 lines of code",
       "item": "https://ajsquestions.github.io/q1/"
     }
   ]
@@ -66,16 +64,16 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Trading Bot in a 100 lines of code",
-  "name": "Trading Bot in a 100 lines of code",
-  "description": "I build a trading bot using a simple strategy in a 100 lines of code",
+  "headline": "ML Trading Bot in a 100 lines of code",
+  "name": "ML Trading Bot in a 100 lines of code",
+  "description": "I build a trading bot using a simple ML strategy in a 100 lines of code",
   "keywords": [
     "Python", "Alpaca", "Machine Learning", "Data Science", "Quant Finance"
   ],
-  "articleBody": "Building a Trade Bot from Scratch In a 100 lines of code The world of financial trading is complex; it requires thorough knowledge of a number of practical aspects of the trade cycle to successfully run a stratgy.\nIn this project, I tried to make trading as simple as running a cell in a jupyter notebook.\nOf course there was systematic thought involved in building the bot, but the idea wasn’t to develop a sophisticated strategy, rather, to develop A strategy FAST.\n1. The Data But first…\n1.1 Alpaca Alpaca is an API first broker that allows you to trade and maintain your portfolio using their python REST API. I used Alpaca as my broker and obtained API-keys for my paper trading acccount on Alpaca, as with any other SaaS.\n1.2 Universe I chose my universe of assets to be approximately 200 US ETFs chosen from a larger universe of 4000+ listed US ETFs. The criterion of selection was a threshold on the volume weighted average price having a mean of larger than a 100 in the past month. The volume weighted average price is a proxy measure for the liquidity of the asset. I preferred to deal with highly liquid ETFs.\nThe list of 4000+ tickers was pulled from the data vendor 12Data. They maintain an API endpoint for all 13000+ ETFs listed on all major exchanges in the world!\nThis is however, a matter of discretion, and not science, and one is free to choose the universe in any other way they desire, without changing the approach. It could be stocks, bonds, options, currency, crypto, or other alternatives.\n1.3 OLHCV Data With our universe determined, I now pull data for the last 8 years in the following manner:\nInstall and import libraries import numpy as np import pandas as pd from alpaca_trade_api.rest import REST, TimeFrame from ta import add_all_ta_features from datetime import datetime, timedelta from tqdm.auto import tqdm from sklearn.tree import DecisionTreeClassifier import warnings warnings.filterwarnings(\"ignore\") Declare your Alpaca API Keys api = REST(key_id=\"\", secret_key=\"\", base_url=\"https://paper-api.alpaca.markets\", api_version='v2') Set up data strcutures to store: symbols to buy symbols to sell last close prices of symbols to buy returns of symbols to buy Determine training period using the datetime module Pull OLHCV bar data from Alpaca API ",
-  "wordCount" : "376",
+  "articleBody": "Building an ML Trade Bot from Scratch In a 100 lines of code The world of financial trading is complex; it requires thorough knowledge of a number of practical aspects of the trade cycle to successfully run a stratgy.\nIn this project, I tried to make trading as simple as running a cell in a jupyter notebook.\nOf course there was systematic thought involved in building the bot, but the idea wasn’t to develop a sophisticated strategy, rather, to develop A strategy FAST.\n1. The Data But first…\n1.1 Alpaca Alpaca is an API first broker that allows you to trade and maintain your portfolio using their python REST API. I used Alpaca as my broker and obtained API-keys for my paper trading acccount on Alpaca, as with any other SaaS.\n1.2 Universe I chose my universe of assets to be approximately 200 US ETFs chosen from a larger universe of 4000+ listed US ETFs. The criterion of selection was a threshold on the volume weighted average price having a mean of larger than a 100 in the past month. The volume weighted average price is a proxy measure for the liquidity of the asset. I preferred to deal with highly liquid ETFs.\nThe list of 4000+ tickers was pulled from the data vendor 12Data. They maintain an API endpoint for all 13000+ ETFs listed on all major exchanges in the world!\nThis is however, a matter of discretion, and not science, and one is free to choose the universe in any other way they desire, without changing the approach. It could be stocks, bonds, options, currency, crypto, or other alternatives.\n1.3 OLHCV Data With our universe determined, I now pull data for the last 8 years in the following manner:\nInstall and import libraries import numpy as np import pandas as pd from alpaca_trade_api.rest import REST, TimeFrame from ta import add_all_ta_features from datetime import datetime, timedelta from tqdm.auto import tqdm from sklearn.tree import DecisionTreeClassifier import warnings warnings.filterwarnings(\"ignore\") Declare your Alpaca API Keys api = REST(key_id=\"YOUR-API-KEY\", secret_key=\"YOUR-SECRTE-KEY\", base_url=\"https://paper-api.alpaca.markets\", api_version='v2') Import file of tickers in universe (here, ETF universe) us_etfs = pd.read_csv(\"YOUR-UNIVERSE.csv\") Set up data strcutures to store: symbols to buy symbols to sell last close prices of symbols to buy returns of symbols to buy symbols_to_buy = [] symbols_to_sell = [] price = pd.DataFrame() rets = pd.DataFrame() Determine training period using the datetime module current_time = datetime.now() tomorrow = current_time + timedelta(days=1) yesterday = current_time - timedelta(days=1) end = yesterday.strftime('%Y-%m-%d') years = 3 start = current_time.replace(year=current_time.year - years).strftime('%Y-%m-%d') Pull OLHCV bar data from Alpaca API We do this in a loop but the general format is: bars = api.get_bars(\"SYMBOL\", TimeFrame.Day, start, end) if len(bars) == 0: continue else: df = bars.df 2. Features and Split 2.1 Adding Features With OLHCV data now pulled, we add all possible trechnical indicators from the library TA-lib using their python wrapper. Technical Indicators are derived from price data and serve as additional features to predict price movements.\nWe do the following next:\nStore price data of all tickers in the universe in our price dataframe. This will be of use to us later. price[symbol] = df['close'] Add all technical indicators to the dataframe with the TA-Lib module. Here, the functions bfill() and ffill() impute NaNs and missing values in the indicators. Of course we could impute these values with the mean or median, or create a probability distribution and sample from it, or even create an ML model to impute missing values. However, for simplicity, we stick to backward and forward filling. df = add_all_ta_features(df, open=\"open\", high=\"high\", low=\"low\", close=\"close\", volume=\"volume\").bfill().ffill() The log returns for each security is calculated and stored for later use. We also define our signal. This is the value that we will try to predict by building an ML model. The hi_lo_signal simply flags the days when the return was positive with a 1, and days where returns were negative remain 0. df['ret'] = np.log(df.close) - np.log(df.close.shift(1)) rets[symbol] = df['ret'] df['hi_lo_signal'] = np.where(df.ret\u003e0,1,0) 2.2 Splitting Dataset in Train and Test Sets We can now split the data into train and test sets, as is the convention in machine learning, to build a model. We use the train set to build a model, and the test set to evaluate it.\nX_train = train.drop(columns=['hi_lo_signal']).shift(1).dropna().reset_index(drop=True) y_train = train['hi_lo_signal'][2:] X_test = test.drop(columns=['hi_lo_signal']).shift(1).dropna().reset_index(drop=True) y_test = test['hi_lo_signal'][1:] assert X_train.shape[0] == y_train.shape[0]",
+  "wordCount" : "724",
   "inLanguage": "en",
-  "image":"https://ajsquestions.github.io/q1/AJpicture.jpeg","datePublished": "2024-01-04T00:00:00Z",
+  "datePublished": "2024-01-04T00:00:00Z",
   "dateModified": "2024-01-04T00:00:00Z",
   "author":{
     "@type": "Person",
@@ -176,28 +174,14 @@
   <header class="post-header">
     
     <h1 class="post-title">
-      Trading Bot in a 100 lines of code
+      ML Trading Bot in a 100 lines of code
     </h1>
 
     <div class="post-meta">&lt;span title=&#39;2024-01-04 00:00:00 &#43;0000 UTC&#39;&gt;January 2024&lt;/span&gt;&amp;nbsp;&amp;middot;&amp;nbsp;AJ
 
 </div>
-  </header> <div class="toc">
-    <details  open>
-        <summary accesskey="c">
-            <span class="details">Table of Contents</span>
-        </summary>
-
-        <div class="inner"><nav id="TableOfContents">
-  <ul>
-    <li><a href="#in-a-100-lines-of-code">In a 100 lines of code</a></li>
-  </ul>
-</nav>
-        </div>
-    </details>
-</div>
-
-  <div class="post-content"><h1 id="building-a-trade-bot-from-scratch">Building a Trade Bot from Scratch<a hidden class="anchor" aria-hidden="true" href="#building-a-trade-bot-from-scratch">#</a></h1>
+  </header> 
+  <div class="post-content"><h1 id="building-an-ml-trade-bot-from-scratch">Building an ML Trade Bot from Scratch<a hidden class="anchor" aria-hidden="true" href="#building-an-ml-trade-bot-from-scratch">#</a></h1>
 <h2 id="in-a-100-lines-of-code">In a 100 lines of code<a hidden class="anchor" aria-hidden="true" href="#in-a-100-lines-of-code">#</a></h2>
 <p>The world of financial trading is complex; it requires thorough knowledge of a number of practical aspects of the trade cycle to successfully run a stratgy.</p>
 <p>In this project, I tried to make trading as simple as running a cell in a jupyter notebook.</p>
@@ -215,8 +199,7 @@
 <ol>
 <li>Install and import libraries</li>
 </ol>
-<pre><code>
-import numpy as np
+<pre><code>import numpy as np
 import pandas as pd
 
 from alpaca_trade_api.rest import REST, TimeFrame
@@ -227,16 +210,16 @@ from tqdm.auto import tqdm
 from sklearn.tree import DecisionTreeClassifier
 
 import warnings
-warnings.filterwarnings("ignore")
-</code></pre>
+warnings.filterwarnings("ignore")</code></pre>
 <ol start="2">
 <li>Declare your Alpaca API Keys</li>
 </ol>
-<pre><code>
-api = REST(key_id="<YOUR-API-KEY>", secret_key="<YOUR-SECRTE-KEY>", 
-                    base_url="https://paper-api.alpaca.markets", api_version='v2')
-</code></pre>
-<ol start="2">
+<pre><code>api = REST(key_id="YOUR-API-KEY", secret_key="YOUR-SECRTE-KEY", base_url="https://paper-api.alpaca.markets", api_version='v2')</code></pre>
+<ol start="3">
+<li>Import file of tickers in universe (here, ETF universe)</li>
+</ol>
+<pre><code>us_etfs = pd.read_csv("YOUR-UNIVERSE.csv")</code></pre>
+<ol start="4">
 <li>Set up data strcutures to store:
 <ul>
 <li>symbols to buy</li>
@@ -245,11 +228,57 @@ api = REST(key_id="<YOUR-API-KEY>", secret_key="<YOUR-SECRTE-KEY>",
 <li>returns of symbols to buy</li>
 </ul>
 </li>
-<li>Determine training period using the datetime module</li>
-<li>Pull OLHCV bar data from Alpaca API</li>
-<li></li>
 </ol>
+<pre><code>symbols_to_buy = []
+symbols_to_sell = []
+price = pd.DataFrame()
+rets = pd.DataFrame()</code></pre>
+<ol start="5">
+<li>Determine training period using the datetime module</li>
+</ol>
+<pre><code>current_time = datetime.now()
+tomorrow = current_time + timedelta(days=1)
+yesterday = current_time - timedelta(days=1)
+end = yesterday.strftime('%Y-%m-%d')
+years = 3
+start = current_time.replace(year=current_time.year - years).strftime('%Y-%m-%d')</code></pre>
+<ol start="6">
+<li>Pull OLHCV bar data from Alpaca API
+We do this in a loop but the general format is:</li>
+</ol>
+<pre><code>bars = api.get_bars("SYMBOL", TimeFrame.Day, start, end)
+    if len(bars) == 0:
+        continue
+    else:
+        df = bars.df</code></pre>
+<h3 id="2-features-and-split">2. Features and Split<a hidden class="anchor" aria-hidden="true" href="#2-features-and-split">#</a></h3>
+<h4 id="21-adding-features">2.1 Adding Features<a hidden class="anchor" aria-hidden="true" href="#21-adding-features">#</a></h4>
+<p>With OLHCV data now pulled, we add all possible trechnical indicators from the library TA-lib using their python wrapper. Technical Indicators are derived from price data and serve as additional features to predict price movements.</p>
+<p>We do the following next:</p>
+<ol>
+<li>Store price data of all tickers in the universe in our price dataframe. This will be of use to us later.</li>
+</ol>
+<pre><code>price[symbol] = df['close']</code></pre>
+<ol start="2">
+<li>Add all technical indicators to the dataframe with the TA-Lib module. Here, the functions bfill() and ffill() impute NaNs and missing values in the indicators. Of course we could impute these values with the mean or median, or create a probability distribution and sample from it, or even create an ML model to impute missing values. However, for simplicity, we stick to backward and forward filling.</li>
+</ol>
+<pre><code>df = add_all_ta_features(df, open="open", high="high", low="low", close="close", volume="volume").bfill().ffill()</code></pre>
+<ol start="3">
+<li>The log returns for each security is calculated and stored for later use. We also define our signal. This is the value that we will try to predict by building an ML model. The hi_lo_signal simply flags the days when the return was positive with a 1, and days where returns were negative remain 0.</li>
+</ol>
+<pre><code>df['ret'] = np.log(df.close) - np.log(df.close.shift(1))
+rets[symbol] = df['ret']
+df['hi_lo_signal'] = np.where(df.ret>0,1,0)</code></pre>
+<h4 id="22-splitting-dataset-in-train-and-test-sets">2.2 Splitting Dataset in Train and Test Sets<a hidden class="anchor" aria-hidden="true" href="#22-splitting-dataset-in-train-and-test-sets">#</a></h4>
+<p>We can now split the data into train and test sets, as is the convention in machine learning, to build a model. We use the train set to build a model, and the test set to evaluate it.</p>
+<pre><code>X_train = train.drop(columns=['hi_lo_signal']).shift(1).dropna().reset_index(drop=True)
+y_train = train['hi_lo_signal'][2:]
 
+
+X_test = test.drop(columns=['hi_lo_signal']).shift(1).dropna().reset_index(drop=True)
+y_test = test['hi_lo_signal'][1:]
+
+assert X_train.shape[0] == y_train.shape[0]</code></pre>
 
   </div>
 
