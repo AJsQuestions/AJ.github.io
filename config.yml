@@ -28,9 +28,8 @@ menu:
           weight: 5 
 
 params:
-    description: "I am a Research Associate (predoctoral) at Harvard Business School in the Finance and Entrpreneurship units.
-    I have a Bachelor's in Data Science, and a Master's in Financial Mathematics. I like to apply Data Science to Machine Learning
-    solutions for problems in Quantitative Finance. I currently work on Portfolio Optimization, Data Science, and Econometrics."
+    description: "I like to apply Data Science to Machine Learning to create solutions for problems in Quantitative 
+    Finance. I currently work on Portfolio Management, Machine Learning, and Data Science related projects."
     author: AJ
     googleAnalyticsID: ""
     DateFormat: "January 2006"
@@ -55,9 +54,8 @@ params:
     profileMode:
           enabled: true
           title: AJ
-          subtitle: "I am a Research Associate (predoctoral) at Harvard Business School in the Finance and Entrpreneurship units.
-          I have a Bachelor's in Data Science, and a Master's in Financial Mathematics. I like to apply Data Science to Machine Learning
-          solutions for problems in Quantitative Finance. I currently work on Portfolio Optimization, Data Science, and Econometrics."
+          subtitle: "I like to apply Data Science to Machine Learning to create solutions for problems in Quantitative 
+          Finance. I currently work on Portfolio Management, Machine Learning, and Data Science related projects."
           imageUrl: "/AJpicture.jpeg"
           imageWidth: 160
           imageHeight: 160
@@ -80,9 +78,9 @@ params:
               weight: 5 
     socialIcons:
         - name: CV
-          url: /AJ_CV_Sep23.pdf
+          url: /AJ_CV_Jul24.pdf
         - name: Email
-          url: mailto:ajena@hbs.edu
+          url: mailto:aryaman.jena5000@gmail.com
         - name: LinkedIn
           url: https://www.linkedin.com/in/aj-jena-13b738172/
         - name: GitHub
