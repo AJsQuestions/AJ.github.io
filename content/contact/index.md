@@ -7,9 +7,9 @@ author: " "
 params:
   socialIcons:
     - name: "CV"
-      url: "/cv.pdf"
+      url: "/CV_Aug24.pdf"
     - name: "Email"
-      url: "mailto:ajena@hbs.edu"
+      url: "mailto:aryaman.jena5000@gmail.com"
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/aj-jena-13b738172/"
     - name: "GitHub"
